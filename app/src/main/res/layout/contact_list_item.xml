@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/cvContact"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:layout_margin="8dp"
     app:cardCornerRadius="4dp"
     app:cardElevation="8dp">
@@ -18,7 +18,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="16dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_baseline_person_pin_24" />
@@ -27,8 +27,8 @@
             android:id="@+id/tvName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="70dp"
-            android:layout_marginEnd="188dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="180dp"
             android:text="Queenter Achieng"
             app:layout_constraintBottom_toBottomOf="@+id/imgContactimage"
             app:layout_constraintEnd_toEndOf="parent"
@@ -40,11 +40,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="188dp"
             android:text="0712345678"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.838"
             app:layout_constraintStart_toEndOf="@+id/imgContactimage"
             app:layout_constraintTop_toBottomOf="@+id/tvName" />
 
@@ -53,7 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:layout_marginEnd="164dp"
+            android:layout_marginEnd="160dp"
             android:text="queenter@gmail.com"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvPhoneNumber" />
@@ -62,8 +62,8 @@
             android:id="@+id/tvAddress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="28dp"
-            android:layout_marginEnd="252dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="180dp"
             android:text="Nairobi"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvEmail" />
